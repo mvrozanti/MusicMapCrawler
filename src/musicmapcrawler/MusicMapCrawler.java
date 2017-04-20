@@ -48,11 +48,11 @@ public class MusicMapCrawler extends WebRobot {
             Band b = null;
             try {
                 b = Band.parse(bandElement);
-            } catch (Exception ex) {
+            } catch (Exception ex) {// unparseable
                 continue;
             }
             try {
-                b.persist(c);
+                b.persistIfUnknown(c);
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -69,7 +69,7 @@ public class MusicMapCrawler extends WebRobot {
         f.addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {
-                if (e.getKeyCode() == 26) {
+                if (e.getKeyCode() == KeyEvent.VK_ESCAPE) {
                     System.exit(0);
                 }
                 if (e.getKeyCode() == KeyEvent.VK_SPACE) {
