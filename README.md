@@ -9,9 +9,11 @@ Setup database of your choice in Main and ready to go.
 ## Usage
 
 - Scrapes relative positions between artist nodes (still needs accuracy tests)
+
 - Stores previous information in a database of your choice
 
 [WIP] Move the screen with your mouse to show more similar artists
+
 [WIP] Recursively find more artists-alike
 
 
