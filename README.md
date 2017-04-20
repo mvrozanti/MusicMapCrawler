@@ -28,3 +28,12 @@ Setup database of your choice in Main and ready to go.
 ## Credits
 
 The <a href="http://www.music-map.com/">Music-Map</a> is part of <a href="http://www.gnod.com/">Gnod</a>, the Global Network of Discovery.
+
+A project of:
+Marek Gibney
+Marktstr. 27
+20357 Hamburg
+
+email: marek@gibney.de
+
+USt-IdNr. DE193318011 
